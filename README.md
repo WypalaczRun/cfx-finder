@@ -8,7 +8,7 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para arrumar os problemas atuais
 
-### Linguagens usadas
+### 🤖 Linguagens usadas
 
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
