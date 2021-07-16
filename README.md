@@ -4,7 +4,7 @@
 
 > CFX Finder feito por mim e pelo Turbo durante a quarentena por fins educativos.
 
-### Ajustes e melhorias
+### 💻 Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para arrumar os problemas atuais
 
