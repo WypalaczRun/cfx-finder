@@ -132,16 +132,16 @@ function GEOIp($ip)
     curl_setopt($req, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($req, CURLOPT_HEADER, 0);
     $data     = curl_exec($req);
-    $dados    = json_decode($data);
-    $ip1      = $iparr[0];
-    $porta    = $iparr[1];
-    $status   = $dados->status;
-    $country  = $dados->country;
-    $isp      = $dados->isp;
-    $org      = $dados->org;
     $httpcode = curl_getinfo($req, CURLINFO_HTTP_CODE);
     switch ($httpcode) {
         case 200:
+            $dados    = json_decode($data);
+            $ip1      = $iparr[0];
+            $porta    = $iparr[1];
+            $status   = $dados->status;
+            $country  = $dados->country;
+            $isp      = $dados->isp;
+            $org      = $dados->org;
             if ($status === 'success') {
                 $array = array(
                     "status" => "Y",
