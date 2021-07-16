@@ -9,8 +9,8 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para arrumar os problemas atuais
 
 
-## 📫 Contribuindo para <nome_do_projeto>
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+## 📫 Contribuindo para <CFX-Finder>
+Para contribuir com <CFX-Finder>, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
