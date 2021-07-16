@@ -14,7 +14,7 @@ if (empty($_POST['cfx'])) {
 } else {
     $cfxlink = filter_var($_POST['cfx'], FILTER_SANITIZE_STRING);
     
-    $cfxfinal = RemoveCfx($cfxlink);
+    $cfxfinal = strtolower(RemoveCfx($cfxlink));
     
     if (strlen(strval($cfxfinal)) > 6) {
         $array = array(
