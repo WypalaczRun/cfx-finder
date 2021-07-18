@@ -105,7 +105,10 @@ function RemoveCfx($url)
     $disallowed = array(
         'http://cfx.re/join/',
         'https://cfx.re/join/',
-        'cfx.re/join/'
+        'cfx.re/join/',
+        'https://servers.fivem.net/servers/detail/',
+        'http://servers.fivem.net/servers/detail/',
+        'servers.fivem.net/servers/detail/'
     );
     foreach ($disallowed as $d) {
         if (strpos($url, $d) === 0) {
